@@ -57,13 +57,10 @@ function App() {
     }
 
     // Add technology
-    setSelectedStack((previousStack) => [
-      ...previousStack,
-      {
-        ...technology,
-        iconImage: technologyIcons[technology.icon],
-      },
-    ]);
+  setSelectedStack((previousStack) => [
+  ...previousStack,
+  technology,
+]);
 
     toast.success(
       `${technology.name} added to your stack!`
