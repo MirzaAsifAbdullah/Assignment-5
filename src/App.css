@@ -45,7 +45,14 @@
   color: #475569;
   font-size: 14px;
   font-weight: 500;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar-links a:first-child {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .navbar-links a:hover {
@@ -407,6 +414,19 @@
 .technologies-heading p {
   color: #64748b;
   font-size: 14px;
+}
+.technologies-heading h2 {
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.technologies-heading h2 span {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Technology Grid */

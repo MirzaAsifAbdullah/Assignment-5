@@ -11,8 +11,8 @@ const Hero = () => {
           </h1>
 
           <p>
-            Explore frontend, backend, database, and tooling options, compare
-            them side by side, and put together the stack that fits your next
+            Explore frontend, backend, database, and tooling options,<br /> compare
+            them side by side, and put together the stack that fits your <br /> next
             project.
           </p>
 

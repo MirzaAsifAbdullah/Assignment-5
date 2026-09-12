@@ -15,10 +15,10 @@ const TechnologyGrid = ({
     >
       <div className="technologies-heading">
         <div>
-          <h2>Explore Technologies</h2>
+          <h2>Explore The <span >Technologies</span></h2>
 
           <p>
-            Discover tools and technologies to build your ideal development stack.
+           Pick one technogy per catagory to build your ideal development stack. 
           </p>
         </div>
       </div>
